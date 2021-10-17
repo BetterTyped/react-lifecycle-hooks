@@ -5,7 +5,7 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 ![NPM](https://img.shields.io/npm/l/@better-typed/react-lifecycle-hooks)
 ![npm](https://img.shields.io/npm/dm/@better-typed/react-lifecycle-hooks)
-![GitHub stars](https://img.shields.io/github/stars/@better-typed/react-lifecycle-hooks?style=social)
+![GitHub stars](https://img.shields.io/github/stars/BetterTyped/react-lifecycle-hooks?style=social)
 
 > React lifecycle turned into dev friendly hooks
 
