@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("react");exports.useDidMount=function(t){return e.useEffect(t,[])},exports.useDidRender=function(t){return e.useEffect(t,[])},exports.useDidUpdate=function(t,r,u){void 0===u&&(u=!1);var n=e.useRef(u);e.useEffect((function(){if(n.current)return t();n.current=!0}),r)},exports.useWillUnmount=function(t){return e.useEffect((function(){return t}),[])};
+//# sourceMappingURL=index.cjs.js.map
