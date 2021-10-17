@@ -8,13 +8,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "react-lifecycle-hooks",
   tagline: "React lifecycle turned into dev friendly hooks",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://bettertyped.github.io/",
+  baseUrl: "/react-lifecycle-hooks",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "BetterTyped", // Usually your GitHub org/user name.
+  projectName: "react-lifecycle-hooks", // Usually your repo name.
 
   presets: [
     [
@@ -23,8 +23,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl: "https://github.com/facebook/docusaurus/edit/main/website/",
+          editUrl: "https://github.com/BetterTyped",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -50,7 +49,7 @@ const config = {
             label: "Tutorial",
           },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/BetterTyped",
             label: "GitHub",
             position: "right",
           },
