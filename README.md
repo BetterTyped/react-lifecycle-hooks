@@ -16,10 +16,6 @@
 
 - :rocket: Simple, fast and light
 - :factory: No external dependencies
-- :gem: something
-- :gift: something
-- :wrench: something
-- :crown: something
 
 ## Install
 

@@ -1,9 +1,10 @@
 # CHANGELOG
 
-## Version: x.x.x
+## Version: 0.1.0
 
-##### Published: xx.xx.xxxx
+##### Published: 17.10.2021
 
--
--
--
+- Added: useDidMount hook
+- Added: useDidRender hook
+- Added: useDidUpdate hook
+- Added: useWillUnmount hook
