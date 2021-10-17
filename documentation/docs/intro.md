@@ -7,8 +7,9 @@ sidebar_position: 1
 ## @better-typed/react-lifecycle-hooks
 
 [![NPM](https://img.shields.io/npm/v/@better-typed/react-lifecycle-hooks.svg)](https://www.npmjs.com/package/@better-typed/react-lifecycle-hooks)
+![BetterTyped](https://img.shields.io/BetterTyped/react-lifecycle-hooks)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@better-typed/react-lifecycle-hooks)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+![npm type definitions](https://img.shields.io/npm/types/@better-typed/react-lifecycle-hooks)
 ![NPM](https://img.shields.io/npm/l/@better-typed/react-lifecycle-hooks)
 ![npm](https://img.shields.io/npm/dm/@better-typed/react-lifecycle-hooks)
 ![GitHub stars](https://img.shields.io/github/stars/prc5/BetterTyped/react-lifecycle-hooks?style=social)
