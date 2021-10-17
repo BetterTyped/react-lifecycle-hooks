@@ -9,7 +9,7 @@ const config = {
   title: "react-lifecycle-hooks",
   tagline: "React lifecycle turned into dev friendly hooks",
   url: "https://bettertyped.github.io/",
-  baseUrl: "/react-lifecycle-hooks",
+  baseUrl: "/react-lifecycle-hooks/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
