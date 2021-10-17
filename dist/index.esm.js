@@ -1,2 +1,0 @@
-import{useEffect as r,useLayoutEffect as n,useRef as t}from"react";var u=function(n){return r(n,[])},o=function(r){return n(r,[])},c=function(n,u,o){void 0===o&&(o=!1);var c=t(o);r((function(){if(c.current)return n();c.current=!0}),u)},e=function(n){return r((function(){return n}),[])};export{u as useDidMount,o as useDidRender,c as useDidUpdate,e as useWillUnmount};
-//# sourceMappingURL=index.esm.js.map
