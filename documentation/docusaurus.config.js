@@ -9,7 +9,7 @@ const config = {
   title: "react-lifecycle-hooks",
   tagline: "React lifecycle turned into dev friendly hooks",
   url: "https://bettertyped.github.io/",
-  baseUrl: "/react-lifecycle-hooks/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -23,7 +23,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/BetterTyped",
+          // editUrl: "https://github.com/BetterTyped",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
