@@ -1,6 +1,6 @@
 {
   "name": "@better-typed/react-lifecycle-hooks",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": "prc5",
   "license": "MIT",
   "description": "React lifecycle turned into dev friendly hooks",
