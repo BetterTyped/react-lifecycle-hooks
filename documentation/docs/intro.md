@@ -48,7 +48,7 @@ const MyComponent: React.FC = () => {
     // ...
   })
 
-  // Called second, once when initial DOM changes are triggered
+  // Called second, when initial DOM changes are triggered
   useDidRender(() => {
     // ...
   })
