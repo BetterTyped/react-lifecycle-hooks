@@ -1,5 +1,6 @@
 import { useLayoutEffect } from "react";
 
-export const useDidRender = (callback: VoidFunction) => useLayoutEffect(callback, []);
+export const useDidRender = (callback: VoidFunction, dependencies: any[] = []) =>
+  useLayoutEffect(callback, dependencies);
 
 export default useDidRender;

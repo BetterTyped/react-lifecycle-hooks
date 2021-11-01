@@ -1,6 +1,10 @@
 import { useEffect, useRef } from "react";
 
-export const useDidUpdate = (callback: VoidFunction, dependencies: any[], useOnMount = false) => {
+export const useDidUpdate = (
+  callback: VoidFunction | (() => VoidFunction),
+  dependencies: any[],
+  useOnMount = false,
+) => {
   const didMountRef = useRef(useOnMount);
 
   useEffect(() => {
