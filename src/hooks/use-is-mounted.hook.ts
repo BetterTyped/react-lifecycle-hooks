@@ -8,7 +8,7 @@ export const useIsMounted = () => {
     },
     [],
   );
-  return componentIsMounted;
+  return componentIsMounted.current;
 };
 
 export default useIsMounted;
