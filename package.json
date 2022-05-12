@@ -16,7 +16,7 @@
   },
   "private": false,
   "peerDependencies": {
-    "react": "^17.0.2"
+    "react": ">= 16.8.0"
   },
   "scripts": {
     "build": "rollup -c",
