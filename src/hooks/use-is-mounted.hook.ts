@@ -10,5 +10,3 @@ export const useIsMounted = () => {
   }, []);
   return componentIsMounted.current;
 };
-
-export default useIsMounted;

@@ -9,7 +9,6 @@
 
 > React lifecycle turned into dev friendly hooks
 
-- [Docs](http://bettertyped.github.io/react-lifecycle-hooks/)
 - [Better Typed](https://github.com/BetterTyped)
 
 ## Features
@@ -33,12 +32,20 @@ yarn add @better-typed/react-lifecycle-hooks
 
 ```tsx
 import React from "react";
-import { useDidMount, useDidRender, useDidUpdate, useWillUnmount } from "@better-typed/react-lifecycle-hooks";
+import { useDidMount, useDidRender, useDidUpdate, useWillUnmount,useIsMounted, useWillMount } from "@better-typed/react-lifecycle-hooks";
 
 const MyComponent: React.FC = () => {
   const [isOpen, setIsOpen] = React.useState(false)
 
-  // Called first
+  // returns ref with the mounted boolean state
+  const mounted = useIsMounted()
+
+  // Called before mount
+  useWillMount(() => {
+    // ...
+  })
+
+  // Called on component mount
   useDidMount(() => {
     // ...
   })
@@ -53,7 +60,7 @@ const MyComponent: React.FC = () => {
     // ...
   }, [isOpen])
 
-  // Called when isOpen change, also on mount
+  // Called when isOpen change but also on mount
   useDidUpdate(() => {
     // ...
   }, [isOpen], true)

@@ -16,5 +16,3 @@ export const useDidUpdate = (
     return callback();
   }, dependencies);
 };
-
-export default useDidUpdate;
