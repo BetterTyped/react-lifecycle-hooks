@@ -40,6 +40,9 @@ const MyComponent: React.FC = () => {
   // returns ref with the mounted boolean state
   const mounted = useIsMounted()
 
+  // Method for the component rerendering
+  const forceUpdate = useForceUpdate()
+
   // Called before mount
   useWillMount(() => {
     // ...
