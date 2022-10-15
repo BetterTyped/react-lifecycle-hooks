@@ -1,13 +1,13 @@
-# @better-typed/react-lifecycle-hooks
+# React Lifecycle Hooks
 
-[![NPM](https://img.shields.io/npm/v/@better-typed/react-lifecycle-hooks.svg)](https://www.npmjs.com/package/@better-typed/react-lifecycle-hooks)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/@better-typed/react-lifecycle-hooks)
-![npm type definitions](https://img.shields.io/npm/types/@better-typed/react-lifecycle-hooks)
-![NPM](https://img.shields.io/npm/l/@better-typed/react-lifecycle-hooks)
-![npm](https://img.shields.io/npm/dm/@better-typed/react-lifecycle-hooks)
+[![NPM](https://img.shields.io/npm/v/@better-hooks/lifecycle.svg)](https://www.npmjs.com/package/@better-hooks/lifecycle)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/@better-hooks/lifecycle)
+![npm type definitions](https://img.shields.io/npm/types/@better-hooks/lifecycle)
+![NPM](https://img.shields.io/npm/l/@better-hooks/lifecycle)
+![npm](https://img.shields.io/npm/dm/@better-hooks/lifecycle)
 ![GitHub stars](https://img.shields.io/github/stars/BetterTyped/react-lifecycle-hooks?style=social)
 
-> React lifecycle turned into dev friendly hooks
+> React lifecycle turned into dev friendly and readable hooks
 
 - [Better Typed](https://github.com/BetterTyped)
 
@@ -19,20 +19,20 @@
 ## Install
 
 ```bash
-npm install --save @better-typed/react-lifecycle-hooks
+npm install --save @better-hooks/lifecycle
 ```
 
 or
 
 ```bash
-yarn add @better-typed/react-lifecycle-hooks
+yarn add @better-hooks/lifecycle
 ```
 
 ## Usage
 
 ```tsx
 import React from "react";
-import { useDidMount, useDidRender, useDidUpdate, useWillUnmount,useIsMounted, useWillMount } from "@better-typed/react-lifecycle-hooks";
+import { useDidMount, useDidRender, useDidUpdate, useWillUnmount,useIsMounted, useWillMount } from "@better-hooks/lifecycle";
 
 const MyComponent: React.FC = () => {
   const [isOpen, setIsOpen] = React.useState(false)
