@@ -41,6 +41,8 @@ React lifecycle turned into dev friendly and readable hooks
 
 🪄 **Increases code readability**
 
+🎊 **SSR Support**
+
 ## Installation
 
 ```bash
