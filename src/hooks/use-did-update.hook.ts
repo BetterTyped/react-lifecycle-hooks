@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useRef } from "react";
 
 export const useDidUpdate = (
@@ -5,11 +6,11 @@ export const useDidUpdate = (
   dependencies: any[],
   useOnMount = false,
 ) => {
-  const didMountRef = useRef(useOnMount);
+  const mountRef = useRef(useOnMount);
 
   useEffect(() => {
-    if (!didMountRef.current) {
-      didMountRef.current = true;
+    if (!mountRef.current) {
+      mountRef.current = true;
       return;
     }
 
