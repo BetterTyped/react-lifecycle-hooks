@@ -102,7 +102,7 @@ const MyComponent: React.FC = (props) => {
 
   // Called when dependencies change, we can inspect previous dependencies
   useDidChange((prevProps) => {
-    if(prevProps.value !== props.value) {
+    if(prevProps[0].value !== props.value) {
       // ...
     }
   }, [props], true)
