@@ -1,7 +1,11 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useRef } from "react";
 
-export const useDidUpdate = (callback: () => void, dependencies: unknown[], useOnMount = false) => {
+export const useDidUpdate = (
+  callback: () => void,
+  dependencies: readonly unknown[],
+  useOnMount = false,
+) => {
   const mountRef = useRef(useOnMount);
 
   useEffect(() => {
