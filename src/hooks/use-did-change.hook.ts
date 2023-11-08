@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 
-export const useDidChange = <T extends any[]>(
-  callback: VoidFunction | ((previousDependencies: T | null) => VoidFunction),
+export const useDidChange = <T extends unknown[]>(
+  callback: (previousDependencies: T | null) => void,
   dependencies: T,
   useOnMount = false,
 ) => {

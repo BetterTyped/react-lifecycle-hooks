@@ -2,8 +2,8 @@
 import { useEffect, useRef } from "react";
 
 export const useDidUpdate = (
-  callback: VoidFunction | (() => VoidFunction),
-  dependencies: any[],
+  callback: () => void,
+  dependencies: readonly unknown[],
   useOnMount = false,
 ) => {
   const mountRef = useRef(useOnMount);
