@@ -8,5 +8,5 @@ export const useIsMounted = () => {
       componentIsMounted.current = false;
     };
   }, []);
-  return componentIsMounted.current;
+  return componentIsMounted;
 };

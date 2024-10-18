@@ -2,8 +2,9 @@
 import { useEffect, useRef } from "react";
 
 export const useDidUpdate = (
-  callback: () => void,
-  dependencies: readonly unknown[],
+  callback: VoidFunction | (() => VoidFunction),
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  dependencies: any[],
   useOnMount = false,
 ) => {
   const mountRef = useRef(useOnMount);
